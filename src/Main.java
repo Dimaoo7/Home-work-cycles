@@ -53,7 +53,7 @@ public class Main {
         System.out.println("Задача 4");
         int sum = 15_000;
         int month = 0;
-        for(; sum <= 12_000_000;){
+        while( sum <= 12_000_000){
             month = month + 1;
             sum += sum * 0.07;
             System.out.println( month +" "+sum);
@@ -64,7 +64,7 @@ public class Main {
         int sum = 15_000;
         int month = 0;
         int result = 0;
-        for(; result <= 12_000_000;){
+        while( result <= 12_000_000){
             month = month + 6;
             sum += sum * 0.07;
             result = sum * 6;
